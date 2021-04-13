@@ -1,0 +1,48 @@
+*{
+   margin: 5px;
+   padding: 5px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+nav{background-color:grey;
+color: black;
+}
+
+/*comentarios es una clase . y el asterisco es un id*/
+/*flexbox*/
+.menu{
+    display: flex;
+    align-items: center;
+
+}
+
+.menu li{
+    width: 10%;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+     color:honeydew;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo{
+      flex-grow: 3 ;
+}
+
+.logo img {
+    width: 10%;
+    padding: 1% 2% 1% 5%;
+}
+
+footer{
+    background-color: grey;
+    color: honeydew;
+    height: 80px;
+    text-align: center;
+}
+
+footer p{
+    padding-top: 2%;
+}
